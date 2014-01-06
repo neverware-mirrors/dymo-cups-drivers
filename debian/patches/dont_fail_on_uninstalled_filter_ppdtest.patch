@@ -1,7 +1,7 @@
 Description: Don't fail the ppd test if the cups filters is not already installed in the correct path
 Author: Didier Raboud <odyx@debian.org>
 Origin: vendor
-Last-Update: 2014-01-06 
+Last-Update: 2014-01-06
 
 --- a/ppd/Makefile.am
 +++ b/ppd/Makefile.am
