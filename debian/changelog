@@ -1,0 +1,5 @@
+dymo-cups-drivers (1.4.0-1) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #640246)
+
+ -- Didier Raboud <odyx@debian.org>  Mon, 06 Jan 2014 09:21:17 +0100
