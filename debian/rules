@@ -1,4 +1,4 @@
 #!/usr/bin/make -f
 
 %:
-	dh $@ --with autoreconf,pyppd
+	dh $@ --with autoreconf,pyppd --parallel
