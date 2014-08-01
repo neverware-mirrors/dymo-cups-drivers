@@ -1,3 +1,10 @@
+dymo-cups-drivers (1.4.0-4) unstable; urgency=medium
+
+  * Add autopktest suite
+  * Allow parallel building
+
+ -- Didier Raboud <odyx@debian.org>  Fri, 01 Aug 2014 16:17:31 +0200
+
 dymo-cups-drivers (1.4.0-3) unstable; urgency=medium
 
   * Move the repository from collab-maint to printing; update the VCS-*
