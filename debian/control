@@ -19,6 +19,7 @@ Standards-Version: 3.9.5
 Package: printer-driver-dymo
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: usb-modeswitch (>= 1.2.5+repack0-2~)
 Description: printer driver for DYMO label printers
  CUPS filter driver for various DYMO label printers: LabelManager 400, 450, PC,
  PC II and PnP; LabelPoint 350 and LabelWriter 300, 310, 315, 320, 330,
