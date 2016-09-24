@@ -14,7 +14,7 @@ Vcs-Git: https://alioth.debian.org/anonscm/git/printing/dymo-cups-drivers.git
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=printing/dymo-cups-drivers.git
 Homepage: https://dymo.custhelp.com/app/answers/detail/a_id/101#lw_linux
 XS-Testsuite: autopkgtest
-Standards-Version: 3.9.5
+Standards-Version: 3.9.8
 
 Package: printer-driver-dymo
 Architecture: any
