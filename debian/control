@@ -1,24 +1,25 @@
 Source: dymo-cups-drivers
-Section: text
-Priority: optional
 Maintainer: Debian Printing Team <debian-printing@lists.debian.org>
 Uploaders: Didier Raboud <odyx@debian.org>
+Section: text
+Testsuite: autopkgtest
+Priority: optional
 Build-Depends: debhelper (>= 9),
- dh-autoreconf,
- pyppd,
- libcups2-dev,
- libcupsimage2-dev,
- libcppunit-dev,
- cups-client,
-Vcs-Git: https://alioth.debian.org/anonscm/git/printing/dymo-cups-drivers.git
-Vcs-Browser: http://anonscm.debian.org/gitweb/?p=printing/dymo-cups-drivers.git
-Homepage: https://dymo.custhelp.com/app/answers/detail/a_id/101#lw_linux
-XS-Testsuite: autopkgtest
+               dh-autoreconf,
+               pyppd,
+               libcups2-dev,
+               libcupsimage2-dev,
+               libcppunit-dev,
+               cups-client
 Standards-Version: 3.9.8
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=printing/dymo-cups-drivers.git
+Vcs-Git: https://alioth.debian.org/anonscm/git/printing/dymo-cups-drivers.git
+Homepage: https://dymo.custhelp.com/app/answers/detail/a_id/101#lw_linux
 
 Package: printer-driver-dymo
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
 Recommends: usb-modeswitch (>= 1.2.5+repack0-2~)
 Description: printer driver for DYMO label printers
  CUPS filter driver for various DYMO label printers: LabelManager 400, 450, PC,
