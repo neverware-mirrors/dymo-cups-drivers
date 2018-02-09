@@ -94,7 +94,7 @@ CXXFLAGS+=" ${optimization_flags} ${warning_flags} ${debug_flags} ${cups_cflags}
 
 AC_CHECK_LIB(cups, cupsMarkOptions, , AC_ERROR([Can't find cups library]))
 AC_CHECK_LIB(cupsimage, cupsRasterReadHeader, , AC_ERROR([Can't find cupsimage library]))
-AC_CHECK_HEADERS([cups/cups.h cups/raster.h],, AC_ERROR([Can't find cups headers]))
+AC_CHECK_HEADERS([cups/cups.h cups/raster.h cups/ppd.h],, AC_ERROR([Can't find cups headers]))
 
 #CUPS_LIBS=`cups-config --image --libs`
 #CUPS_LIBS="-lcups -lcupsimage"
