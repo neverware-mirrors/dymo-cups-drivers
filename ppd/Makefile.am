@@ -51,4 +51,4 @@ check_PROGRAMS = testppd
 testppd_SOURCES=
 
 testppd:
-	cupstestppd $(dist_cupsmodel_DATA)
+	cupstestppd -W filters $(dist_cupsmodel_DATA)
