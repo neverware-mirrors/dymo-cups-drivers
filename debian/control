@@ -11,7 +11,7 @@ Build-Depends: debhelper (>= 9),
                libcupsimage2-dev,
                libcppunit-dev,
                cups-client
-Standards-Version: 3.9.8
+Standards-Version: 4.1.3
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=printing/dymo-cups-drivers.git
 Vcs-Git: https://alioth.debian.org/anonscm/git/printing/dymo-cups-drivers.git
 Homepage: https://dymo.custhelp.com/app/answers/detail/a_id/101#lw_linux
