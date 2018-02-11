@@ -7,15 +7,6 @@ dymo-cups-drivers (1.4.0-8) unstable; urgency=medium
 
  -- Didier Raboud <odyx@debian.org>  Fri, 09 Feb 2018 17:46:19 +0100
 
-dymo-cups-drivers (1.4.0-7) unstable; urgency=medium
-
-  * Update debian/control syntax with cme
-  * Bump Standards-Version to 4.1.3 without changes needed
-  * Update Vcs-* fields for the move to salsa.d.o
-  * Instantiate gbp.conf
-
- -- Didier Raboud <odyx@debian.org>  Fri, 09 Feb 2018 17:45:24 +0100
-
 dymo-cups-drivers (1.4.0-6) unstable; urgency=medium
 
   * Update previous ppd_file_t patch to cover the whole codebase
