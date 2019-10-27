@@ -23,7 +23,6 @@
 
 #include <cups/cups.h>
 #include <cups/raster.h>
-#include <cups/ppd.h>
 #include <memory>
 #include <string>
 #include "CupsPrintEnvironment.h"

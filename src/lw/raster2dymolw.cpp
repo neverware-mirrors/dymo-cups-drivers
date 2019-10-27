@@ -20,7 +20,6 @@
 
 #include <cups/cups.h>
 #include <cups/raster.h>
-#include <cups/ppd.h>
 #include <stdlib.h>
 #include <unistd.h>
 #include <string.h>

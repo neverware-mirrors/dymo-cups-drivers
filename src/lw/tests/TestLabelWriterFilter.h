@@ -27,7 +27,6 @@
 #include "../DummyLanguageMonitor.h"
 
 #include <cups/cups.h>
-#include <cups/ppd.h>
 
 class LabelWriterFilterTest: public CPPUNIT_NS::TestFixture
 {
