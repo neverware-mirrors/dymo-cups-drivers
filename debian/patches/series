@@ -1,0 +1,5 @@
+0001-Inheritate-CXXFLAGS-from-the-environment-to-use-dpkg.patch
+0002-Port-to-newer-cups-headers-ppd_file_t-is-only-define.patch
+0003-Don-t-fail-the-ppd-test-if-the-cups-filters-is-not-a.patch
+auto-gitignore
+0005-Include-cups-sidechannel.h-for-cupsBackChannelRead-s.patch

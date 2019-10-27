@@ -1,0 +1,21 @@
+From: Didier Raboud <odyx@debian.org>
+Date: Fri, 9 Feb 2018 17:46:10 +0100
+Subject: Don't fail the ppd test if the cups filters is not already installed
+ in the correct path
+
+Origin: vendor
+Last-Update: 2014-01-06
+---
+ ppd/Makefile.am | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/ppd/Makefile.am b/ppd/Makefile.am
+index e7a69d9..f040ec0 100644
+--- a/ppd/Makefile.am
++++ b/ppd/Makefile.am
+@@ -51,4 +51,4 @@ check_PROGRAMS = testppd
+ testppd_SOURCES=
+ 
+ testppd:
+-	cupstestppd $(dist_cupsmodel_DATA)
++	cupstestppd -W filters $(dist_cupsmodel_DATA)
