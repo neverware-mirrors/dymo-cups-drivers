@@ -1,3 +1,20 @@
+dymo-cups-drivers (1.4.0-9) unstable; urgency=medium
+
+  * Packaging cleanup:
+    - Drop double changelog entry
+    - Use secure copyright file specification URI
+    - Use secure URI in debian/watch
+    - Bump debhelper from old 9 to 12
+    - Remove unnecessary 'Testsuite: autopkgtest' header
+    - Set upstream metadata fields: Bug-Submit
+    - Drop unnecessary dependency on dh-autoconf
+    - Drop unnecessary dh arguments: --parallel
+  * Convert to git-debrebase
+  * Add patch include cups/sidechannel.h for cupsBackChannelRead symbol
+    (Closes: #943549)
+
+ -- Didier Raboud <odyx@debian.org>  Sun, 27 Oct 2019 09:48:25 +0100
+
 dymo-cups-drivers (1.4.0-8) unstable; urgency=medium
 
   * Update debian/control syntax with cme
